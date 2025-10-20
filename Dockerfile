@@ -1,5 +1,5 @@
-# Start from the official n8n image that already includes Python
-FROM docker.n8n.io/n8nio/n8n:latest-python
+# Start from the MAIN official n8n image. This is the corrected line.
+FROM docker.n8n.io/n8nio/n8n:latest
 
 # Switch to 'root' user to install software
 USER root
